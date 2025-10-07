@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch InventoryApp",
+      "request": "launch",
+      "mainClass": "InventoryApp",
+      "projectName": "SimpleHomeInventory",
+      // "vmArgs": " --module-path \"lib\" --add-modules=javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path \"C:/javafx-sdk-17/javafx-sdk-17.0.16/lib\" --add-modules javafx.controls,javafx.fxml -Djava.library.path=\"C:/javafx-sdk-17/javafx-sdk-17.0.16/bin\""
+
+    }
+  ]
+}
